@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FEE8B0"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".LoginPage2">
+
+    <TextView
+        android:layout_width="196dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_gravity="top|center"
+        android:text="@string/loginAdmin"
+        android:textColor="#9CA777"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        <ImageView
+        android:layout_width="180dp"
+        android:layout_height="280dp"
+        android:src="@drawable/user1"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:background="#ACA9A9"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:hint="@string/password"
+        android:background="#ACA9A9"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="@string/loginbtn"
+        android:backgroundTint="#FFA500"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
