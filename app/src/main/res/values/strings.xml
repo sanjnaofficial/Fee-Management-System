@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FeesManagementSystem</string>
+    <string name="login">Login As Student</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="regNo">Registration number</string>
+    <string name="PhoneNo">Phone Number</string>
+    <string name="msg">Don\'t have an account? </string>
+    <string name="msg2">Register Now</string>
+    <string name="loginAdmin">Login As Admin</string>
+    <string name="loginbtn">Login</string>
+    <string name="select">select</string>
+    <string-array name="post">
+        <item>select</item>
+        <item>Admin</item>
+        <item>Student</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
