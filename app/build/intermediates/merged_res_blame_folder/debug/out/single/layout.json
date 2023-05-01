@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\fragment_home3.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\fragment_home3.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_login_page.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_list_of_students.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_list_of_students.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_frame_main.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_frame_main.xml"
+    },
+    {
+        "merged": "com.example.feesmanagementsystem.app-mergeDebugResources-39:/layout/fragment_home4.xml",
+        "source": "com.example.feesmanagementsystem.app-main-42:/layout/fragment_home4.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\fragment_home4.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\fragment_home4.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_read_data.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_read_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_login_page2.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_login_page2.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_student_profile.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_student_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\item.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-mergeDebugResources-39:\\layout\\activity_register_page.xml",
+        "source": "C:\\Users\\SANJNA\\.gradle\\daemon\\7.4\\com.example.feesmanagementsystem.app-main-42:\\layout\\activity_register_page.xml"
+    },
+    {
+        "merged": "com.example.feesmanagementsystem.app-mergeDebugResources-39:/layout/fragment_home3.xml",
+        "source": "com.example.feesmanagementsystem.app-main-42:/layout/fragment_home3.xml"
+    }
+]

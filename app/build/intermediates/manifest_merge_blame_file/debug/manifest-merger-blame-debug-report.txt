@@ -1,0 +1,360 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.feesmanagementsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:26:5-79
+13-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:26:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\SANJNA\.gradle\caches\transforms-3\61e069618d6b423984d1aa333c1d05e8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.feesmanagementsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\SANJNA\.gradle\caches\transforms-3\61e069618d6b423984d1aa333c1d05e8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\SANJNA\.gradle\caches\transforms-3\61e069618d6b423984d1aa333c1d05e8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.feesmanagementsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\SANJNA\.gradle\caches\transforms-3\61e069618d6b423984d1aa333c1d05e8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\SANJNA\.gradle\caches\transforms-3\61e069618d6b423984d1aa333c1d05e8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:8:5-87:19
+22        android:allowBackup="true"
+22-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\SANJNA\.gradle\caches\transforms-3\61e069618d6b423984d1aa333c1d05e8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:10:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Material3.Light" >
+32-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:16:9-53
+33        <activity
+33-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:18:9-24:20
+34            android:name="com.example.feesmanagementsystem.ReadData"
+34-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:19:13-37
+35            android:exported="false" >
+35-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:20:13-37
+36            <meta-data
+36-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+37                android:name="android.app.lib_name"
+37-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+38                android:value="" />
+38-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+39        </activity>
+40        <activity
+40-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:25:9-31:20
+41            android:name="com.example.feesmanagementsystem.FrameMain"
+41-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:26:13-38
+42            android:exported="false" >
+42-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+44                android:name="android.app.lib_name"
+44-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+45                android:value="" />
+45-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+46        </activity>
+47        <activity
+47-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:32:9-38:20
+48            android:name="com.example.feesmanagementsystem.StudentProfile"
+48-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:33:13-43
+49            android:exported="false" >
+49-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:34:13-37
+50            <meta-data
+50-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+52                android:value="" />
+52-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+53        </activity>
+54        <activity
+54-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:39:9-45:20
+55            android:name="com.example.feesmanagementsystem.ListOfStudents"
+55-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:40:13-43
+56            android:exported="false" >
+56-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:41:13-37
+57            <meta-data
+57-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+59                android:value="" />
+59-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+60        </activity>
+61        <activity
+61-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:46:9-52:20
+62            android:name="com.example.feesmanagementsystem.LoginPage2"
+62-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:47:13-39
+63            android:exported="false" >
+63-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:48:13-37
+64            <meta-data
+64-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+65                android:name="android.app.lib_name"
+65-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+66                android:value="" />
+66-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+67        </activity>
+68        <activity
+68-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:53:9-59:20
+69            android:name="com.example.feesmanagementsystem.RegisterPage"
+69-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:54:13-41
+70            android:exported="false" >
+70-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:55:13-37
+71            <meta-data
+71-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+72                android:name="android.app.lib_name"
+72-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+73                android:value="" />
+73-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+74        </activity>
+75        <activity
+75-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:60:9-66:20
+76            android:name="com.example.feesmanagementsystem.LoginPage"
+76-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:61:13-38
+77            android:exported="false" >
+77-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:62:13-37
+78            <meta-data
+78-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+79                android:name="android.app.lib_name"
+79-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+80                android:value="" />
+80-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+81        </activity>
+82        <activity
+82-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:67:9-73:20
+83            android:name="com.example.feesmanagementsystem.SplashScreen"
+83-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:68:13-41
+84            android:exported="false" >
+84-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:69:13-37
+85            <meta-data
+85-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+86                android:name="android.app.lib_name"
+86-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+87                android:value="" />
+87-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+88        </activity>
+89        <activity
+89-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:74:9-86:20
+90            android:name="com.example.feesmanagementsystem.MainActivity"
+90-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:75:13-41
+91            android:exported="true" >
+91-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:76:13-36
+92            <intent-filter>
+92-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:77:13-81:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:78:17-69
+93-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:78:25-66
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:80:17-77
+95-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:80:27-74
+96            </intent-filter>
+97
+98            <meta-data
+98-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:21:13-23:36
+99                android:name="android.app.lib_name"
+99-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:22:17-52
+100                android:value="" />
+100-->C:\Users\SANJNA\AndroidStudioProjects\FeesManagementSystem\app\src\main\AndroidManifest.xml:23:17-33
+101        </activity>
+102
+103        <service
+103-->[com.google.firebase:firebase-auth-ktx:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\99ccc70b8e68075c7b027eda8c1e4d5e\transformed\firebase-auth-ktx-21.3.0\AndroidManifest.xml:8:9-14:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-auth-ktx:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\99ccc70b8e68075c7b027eda8c1e4d5e\transformed\firebase-auth-ktx-21.3.0\AndroidManifest.xml:9:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-auth-ktx:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\99ccc70b8e68075c7b027eda8c1e4d5e\transformed\firebase-auth-ktx-21.3.0\AndroidManifest.xml:10:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-auth-ktx:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\99ccc70b8e68075c7b027eda8c1e4d5e\transformed\firebase-auth-ktx-21.3.0\AndroidManifest.xml:11:13-13:85
+108                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+108-->[com.google.firebase:firebase-auth-ktx:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\99ccc70b8e68075c7b027eda8c1e4d5e\transformed\firebase-auth-ktx-21.3.0\AndroidManifest.xml:12:17-116
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-auth-ktx:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\99ccc70b8e68075c7b027eda8c1e4d5e\transformed\firebase-auth-ktx-21.3.0\AndroidManifest.xml:13:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+111                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+111-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:15:17-124
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:16:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-firestore-ktx:24.5.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a0bae8146f843ae056e046230dfd8688\transformed\firebase-firestore-ktx-24.5.0\AndroidManifest.xml:14:13-16:85
+114                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+114-->[com.google.firebase:firebase-firestore-ktx:24.5.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a0bae8146f843ae056e046230dfd8688\transformed\firebase-firestore-ktx-24.5.0\AndroidManifest.xml:15:17-126
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-firestore-ktx:24.5.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a0bae8146f843ae056e046230dfd8688\transformed\firebase-firestore-ktx-24.5.0\AndroidManifest.xml:16:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+117                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+117-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+120-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-database:20.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+123                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+123-->[com.google.firebase:firebase-database:20.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-database:20.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\SANJNA\.gradle\caches\transforms-3\ac5129420dd85aaeb38fb0fa59aadd98\transformed\firebase-firestore-24.5.0\AndroidManifest.xml:19:13-21:85
+126                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+126-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\SANJNA\.gradle\caches\transforms-3\ac5129420dd85aaeb38fb0fa59aadd98\transformed\firebase-firestore-24.5.0\AndroidManifest.xml:20:17-111
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\SANJNA\.gradle\caches\transforms-3\ac5129420dd85aaeb38fb0fa59aadd98\transformed\firebase-firestore-24.5.0\AndroidManifest.xml:21:17-82
+128        </service>
+129
+130        <activity
+130-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+131            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+131-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+132            android:excludeFromRecents="true"
+132-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+133            android:exported="true"
+133-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+134            android:launchMode="singleTask"
+134-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+135-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+136            <intent-filter>
+136-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+137-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+139-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+140-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+141
+142                <data
+142-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+143                    android:host="firebase.auth"
+143-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+144                    android:path="/"
+144-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+145                    android:scheme="genericidp" />
+145-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+146            </intent-filter>
+147        </activity>
+148        <activity
+148-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+149            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+149-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+155-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+157-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+158-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+159
+160                <data
+160-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+161                    android:host="firebase.auth"
+161-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+162                    android:path="/"
+162-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+163                    android:scheme="recaptcha" />
+163-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\SANJNA\.gradle\caches\transforms-3\8f08dd979e71ee09893dba94f6c3bd8c\transformed\firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+164            </intent-filter>
+165        </activity>
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+169            android:authorities="com.example.feesmanagementsystem.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:20.3.2] C:\Users\SANJNA\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+173
+174        <activity
+174-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+175            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+175-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+177-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\SANJNA\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+182
+183        <provider
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+185            android:authorities="com.example.feesmanagementsystem.androidx-startup"
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+186            android:exported="false" >
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+187            <meta-data
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+189                android:value="androidx.startup" />
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SANJNA\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SANJNA\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+191                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+191-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SANJNA\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+192                android:value="androidx.startup" />
+192-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SANJNA\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+193        </provider>
+194    </application>
+195
+196</manifest>
